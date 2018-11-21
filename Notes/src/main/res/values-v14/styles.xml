@@ -4,14 +4,14 @@
   <!-- <color name="ListColor">#404040</color> -->
   <color name="ListColor">#e8d731</color>
   
- <style name="ImapNotesTheme" parent="@android:style/Theme.Holo.Light">
+ <style name="NotesTheme" parent="@android:style/Theme.AppCompat.Light.DarkActionBar">
     <item name="android:windowBackground">@color/ListColor</item>
     <item name="android:colorBackground">@color/ListColor</item>
     <item name="android:actionBarStyle">@style/MyActionBar</item>
   </style>
   
     <!-- ActionBar styles -->
-    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+    <style name="MyActionBar" parent="@android:style/Theme.AppCompat.Light.DarkActionBar">
         <item name="android:background">#8e5d25</item> 
 	<item name="android:titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item>
     </style>
