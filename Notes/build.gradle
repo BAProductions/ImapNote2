@@ -1,11 +1,11 @@
-apply plugin: 'com.android.application'
+ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 21
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.Pau.ImapNotes2"
+        applicationId "com.Light.Notes"
         minSdkVersion 16
         targetSdkVersion 16
     }
