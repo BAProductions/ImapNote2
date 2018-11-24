@@ -21,7 +21,16 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files) \
 
 LOCAL_PACKAGE_NAME := Notes
 
-LOCAL_STATIC_JAVA_LIBRARIES := libs
+LOCAL_STATIC_JAVA_LIBRARIES := \ 
+    activation \ 
+    additionnal \
+    android-support \
+    commons-io \
+    javamaildir \
+    mail
+
+LOCAL_JAVA_LIBRARIES += \
+    com.android.support:support-v4:21.0.3
 
 include $(BUILD_PACKAGE)
 
