@@ -1,4 +1,4 @@
-package com.Pau.ImapNotes2;
+package com.Light.Notes;
 
 /*
  * Copyright (C) 2006 The Android Open Source Project

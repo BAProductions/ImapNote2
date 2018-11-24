@@ -1,4 +1,4 @@
-package com.Pau.ImapNotes2.Sync;
+package com.Light.Notes.Sync;
 
 import android.app.Service;
 import android.content.Intent;

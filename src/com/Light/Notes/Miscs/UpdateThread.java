@@ -1,4 +1,4 @@
-package com.Pau.ImapNotes2.Miscs;
+package com.Light.Notes.Miscs;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -17,11 +17,11 @@ import javax.mail.Session;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MailDateFormat;
 
-import com.Pau.ImapNotes2.ImapNotes2;
-import com.Pau.ImapNotes2.Listactivity;
-import com.Pau.ImapNotes2.NotesListAdapter;
-import com.Pau.ImapNotes2.Data.ImapNotes2Account;
-import com.Pau.ImapNotes2.Data.NotesDb;
+import com.Light.Notes.ImapNotes2;
+import com.Light.Notes.Listactivity;
+import com.Light.Notes.NotesListAdapter;
+import com.Light.Notes.Data.ImapNotes2Account;
+import com.Light.Notes.Data.NotesDb;
 
 import android.app.ProgressDialog;
 import android.content.Context;

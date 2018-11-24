@@ -1,4 +1,4 @@
-package com.Pau.ImapNotes2.Miscs;
+package com.Light.Notes.Miscs;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -21,10 +21,10 @@ import com.sun.mail.imap.IMAPStore;
 import com.sun.mail.util.MailSSLSocketFactory;
 import java.util.regex.*;
 
-import com.Pau.ImapNotes2.Miscs.Sticky;
-import com.Pau.ImapNotes2.ImapNotes2;
-import com.Pau.ImapNotes2.Listactivity;
-import com.Pau.ImapNotes2.Miscs.ImapNotes2Result;
+import com.Light.Notes.Miscs.Sticky;
+import com.Light.Notes.ImapNotes2;
+import com.Light.Notes.Listactivity;
+import com.Light.Notes.Miscs.ImapNotes2Result;
 
 public class Imaper {
   

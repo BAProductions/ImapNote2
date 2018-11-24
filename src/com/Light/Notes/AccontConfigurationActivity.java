@@ -1,12 +1,12 @@
-package com.Pau.ImapNotes2;
+package com.Light.Notes;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.Pau.ImapNotes2.Data.ConfigurationFile;
-import com.Pau.ImapNotes2.Data.ImapNotes2Account;
-import com.Pau.ImapNotes2.Miscs.ImapNotes2Result;
-import com.Pau.ImapNotes2.Miscs.Imaper;
+import com.Light.Notes.Data.ConfigurationFile;
+import com.Light.Notes.Data.ImapNotes2Account;
+import com.Light.Notes.Miscs.ImapNotes2Result;
+import com.Light.Notes.Miscs.Imaper;
 
 import android.accounts.Account;
 import android.accounts.AccountAuthenticatorActivity;
@@ -35,7 +35,7 @@ import android.widget.Toast;
 
 public class AccontConfigurationActivity extends AccountAuthenticatorActivity implements OnItemSelectedListener{
   public static final int TO_REFRESH = 999;
-  public static final String AUTHORITY = "com.Pau.ImapNotes2.provider";
+  public static final String AUTHORITY = "com.Light.Notes.provider";
   private static final String TAG = "AccontConfigurationActivity";
   
   private Imaper imapFolder;
@@ -157,7 +157,7 @@ public class AccontConfigurationActivity extends AccountAuthenticatorActivity im
 
     LinearLayout layout = (LinearLayout) findViewById(R.id.bttonsLayout);
     accountManager = AccountManager.get(getApplicationContext());
-    Account[] accounts = accountManager.getAccountsByType("com.Pau.ImapNotes2");
+    Account[] accounts = accountManager.getAccountsByType("com.Light.Notes");
     for (Account account : accounts) {
         if (account.name.equals(accountname)) {
             myAccount = account;
@@ -239,7 +239,7 @@ public class AccontConfigurationActivity extends AccountAuthenticatorActivity im
             ((ImapNotes2Account)stuffs[1]).GetFoldername());
           accontConfigurationActivity = (AccontConfigurationActivity)stuffs[3];
           if (this.res.returnCode==0) {
-            Account account = new Account(((ImapNotes2Account)stuffs[1]).GetAccountname(), "com.Pau.ImapNotes2");
+            Account account = new Account(((ImapNotes2Account)stuffs[1]).GetAccountname(), "com.Light.Notes");
             long SYNC_FREQUENCY = (long)stuffs[5];
             AccountManager am = AccountManager.get(((AccontConfigurationActivity)stuffs[3]));
             accontConfigurationActivity.setResult(AccontConfigurationActivity.TO_REFRESH);

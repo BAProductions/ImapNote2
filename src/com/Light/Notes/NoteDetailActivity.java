@@ -1,4 +1,4 @@
-package com.Pau.ImapNotes2;
+package com.Light.Notes;
 
 import java.util.HashMap;
 import javax.mail.Message;
@@ -10,9 +10,9 @@ import javax.mail.internet.MimeMessage;
 
 import org.apache.commons.io.IOUtils;
 
-import com.Pau.ImapNotes2.Miscs.OneNote;
-import com.Pau.ImapNotes2.Miscs.Sticky;
-import com.Pau.ImapNotes2.Sync.SyncUtils;
+import com.Light.Notes.Miscs.OneNote;
+import com.Light.Notes.Miscs.Sticky;
+import com.Light.Notes.Sync.SyncUtils;
 
 import java.io.File;
 import java.io.FileOutputStream;

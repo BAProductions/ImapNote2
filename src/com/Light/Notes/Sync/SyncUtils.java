@@ -1,4 +1,4 @@
-package com.Pau.ImapNotes2.Sync;
+package com.Light.Notes.Sync;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -27,10 +27,10 @@ import org.apache.commons.io.FileUtils;
 
 import javax.mail.Message;
 import javax.mail.Session;
-import com.Pau.ImapNotes2.Data.NotesDb;
-import com.Pau.ImapNotes2.Miscs.ImapNotes2Result;
-import com.Pau.ImapNotes2.Miscs.OneNote;
-import com.Pau.ImapNotes2.Miscs.Sticky;
+import com.Light.Notes.Data.NotesDb;
+import com.Light.Notes.Miscs.ImapNotes2Result;
+import com.Light.Notes.Miscs.OneNote;
+import com.Light.Notes.Miscs.Sticky;
 import com.sun.mail.util.MailSSLSocketFactory;
 
 import com.sun.mail.imap.IMAPStore;

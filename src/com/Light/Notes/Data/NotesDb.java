@@ -1,4 +1,4 @@
-package com.Pau.ImapNotes2.Data;
+package com.Light.Notes.Data;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 
-import com.Pau.ImapNotes2.Miscs.OneNote;
+import com.Light.Notes.Miscs.OneNote;
 
 import android.content.ContentValues;
 import android.content.Context;

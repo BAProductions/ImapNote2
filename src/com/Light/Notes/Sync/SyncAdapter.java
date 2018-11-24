@@ -1,4 +1,4 @@
-package com.Pau.ImapNotes2.Sync;
+package com.Light.Notes.Sync;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -18,9 +18,9 @@ import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
-import com.Pau.ImapNotes2.Data.NotesDb;
-import com.Pau.ImapNotes2.Miscs.ImapNotes2Result;
-import com.Pau.ImapNotes2.Sync.SyncUtils;
+import com.Light.Notes.Data.NotesDb;
+import com.Light.Notes.Miscs.ImapNotes2Result;
+import com.Light.Notes.Sync.SyncUtils;
 import com.sun.mail.imap.AppendUID;
 
 class SyncAdapter extends AbstractThreadedSyncAdapter {

@@ -1,7 +1,7 @@
-package com.Pau.ImapNotes2.Miscs;
+package com.Light.Notes.Miscs;
 
-import com.Pau.ImapNotes2.AccontConfigurationActivity;
-import com.Pau.ImapNotes2.Sync.SyncUtils;
+import com.Light.Notes.AccontConfigurationActivity;
+import com.Light.Notes.Sync.SyncUtils;
 
 import android.accounts.AbstractAccountAuthenticator;
 import android.accounts.Account;

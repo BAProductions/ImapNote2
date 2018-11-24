@@ -1,11 +1,11 @@
-package com.Pau.ImapNotes2.Miscs;
+package com.Light.Notes.Miscs;
 
 import java.util.ArrayList;
 
-import com.Pau.ImapNotes2.Listactivity;
-import com.Pau.ImapNotes2.NotesListAdapter;
-import com.Pau.ImapNotes2.Data.ImapNotes2Account;
-import com.Pau.ImapNotes2.Data.NotesDb;
+import com.Light.Notes.Listactivity;
+import com.Light.Notes.NotesListAdapter;
+import com.Light.Notes.Data.ImapNotes2Account;
+import com.Light.Notes.Data.NotesDb;
 
 import android.app.ProgressDialog;
 import android.content.Context;

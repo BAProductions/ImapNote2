@@ -1,4 +1,4 @@
-package com.Pau.ImapNotes2.Data;
+package com.Light.Notes.Data;
 
 import android.accounts.Account;
 
