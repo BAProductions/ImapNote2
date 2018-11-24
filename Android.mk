@@ -19,20 +19,32 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(call all-subdir-java-files) \
 
-LOCAL_PACKAGE_NAME := Notes
+LOCAL_STATIC_JAVA_LIBRARIES += \ 
+    android-support-v4 \
+    android-support-v7-appcompat \
+    android-support-v7-gridlayout \
+    android-support-v13 \
+    android-opt-bitmap \
+    owasp-html-sanitizer \
+    activation \
+    additionnal \
+    commons \
+    javamaildir \
+    mail
 
-LOCAL_STATIC_JAVA_LIBRARIES := \ 
-    android-support-v4 
+LOCAL_SDK_VERSION := current
+
+LOCAL_PACKAGE_NAME := Notes
 
 include $(BUILD_PACKAGE)
 
 include $(CLEAR_VARS)
 
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
-    libs/activation.jar \
-    libs/additionnal.jar \
-    libs/commons-io-2.4.jar \
-    libs/javamaildir-0.6.jar \
-    libs/mail.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += \
+    activation:libs/activation.jar \
+    additionnal:libs/additionnal.jar \
+    commons:libs/commons-io-2.4.jar \
+    javamaildir:libs/javamaildir-0.6.jar \
+    mail:libs/mail.jar
 
 include $(BUILD_MULTI_PREBUILT)
