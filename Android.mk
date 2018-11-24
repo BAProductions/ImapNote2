@@ -29,8 +29,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     javamaildir \
     mail
 
-LOCAL_JAVA_LIBRARIES += \
-    com.android.support:support-v4:21.0.3
+#LOCAL_JAVA_LIBRARIES += \
+    #com.android.support:support-v4:21.0.3
 
 include $(BUILD_PACKAGE)
 
