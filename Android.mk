@@ -22,7 +22,7 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files) \
 LOCAL_PACKAGE_NAME := Notes
 
 LOCAL_STATIC_JAVA_LIBRARIES := \ 
-    android-support-v4 \
+    android-support-v4 
 
 include $(BUILD_PACKAGE)
 
