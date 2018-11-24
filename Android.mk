@@ -22,18 +22,7 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files) \
 LOCAL_PACKAGE_NAME := Notes
 
 LOCAL_STATIC_JAVA_LIBRARIES := \ 
-    activation \ 
-    additionnal \
-    commons-io \
-    javamaildir \
-    mail
-
-LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4 \
-    android-support-v13 \
-    android-support-core-ui \
-    android-support-v7-appcompat \
-    android-support-v7-gridlayout
 
 include $(BUILD_PACKAGE)
 
