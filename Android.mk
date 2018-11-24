@@ -24,13 +24,16 @@ LOCAL_PACKAGE_NAME := Notes
 LOCAL_STATIC_JAVA_LIBRARIES := \ 
     activation \ 
     additionnal \
-    android-support \
     commons-io \
     javamaildir \
     mail
 
-#LOCAL_JAVA_LIBRARIES += \
-    #com.android.support:support-v4:21.0.3
+LOCAL_STATIC_JAVA_LIBRARIES := \
+    android-support-v4 \
+    android-support-v13 \
+    android-support-core-ui \
+    android-support-v7-appcompat \
+    android-support-v7-gridlayout
 
 include $(BUILD_PACKAGE)
 
@@ -39,7 +42,6 @@ include $(CLEAR_VARS)
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
     libs/activation.jar \
     libs/additionnal.jar \
-    libs/android-support-v4.jar \
     libs/commons-io-2.4.jar \
     libs/javamaildir-0.6.jar \
     libs/mail.jar
