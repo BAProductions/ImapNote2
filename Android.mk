@@ -55,7 +55,7 @@ LOCAL_STATIC_JAVA_LIBRARIES += mail
 
 LOCAL_SDK_VERSION := current
 
-LOCAL_PACKAGE_NAME := Notes
+LOCAL_PACKAGE_NAME := Notess
 
 include $(BUILD_PACKAGE)
 ##################################################
