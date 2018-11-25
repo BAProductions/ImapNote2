@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="TitleColor">
+        <item name="android:background">#8e5d25</item>
+   </style>
+  
+  <style name="Widget.Notes.Button" parent="Widget.MaterialComponents.Button">
+      <item name="backgroundTint">?attr/colorPrimary</item>
+  </style>
+  
+  <color name="ListColor">#e8d731</color>
+  <style name="Theme.Notes" parent="Theme.MaterialComponents.Light">
+    <item name="materialButtonStyle">@style/Widget.Notes.Button</item>
+    <item name="android:colorPrimary">@color/MainColor</item>
+    <item name="android:colorSecondary">@color/ActsentColor</item>
+  	<item name="android:windowTitleSize">60dip</item>
+  	<item name="android:windowTitleBackgroundStyle">@style/TitleColor</item>
+    <item name="android:windowBackground">@color/ListColor</item>
+    <item name="android:colorBackground">@color/ListColor</item>
+  </style>
+  
+</resources>
