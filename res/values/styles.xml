@@ -6,8 +6,8 @@
    </style>
   <style name="Widget.Notes.Button" parent="Widget.MaterialComponents.Button">
       <item name="backgroundTint">?attr/colorPrimary</item>
-  </style> -->
-  <!-- <style name="Theme.Notes" parent="Theme.MaterialComponents.Light">
+  </style>
+  <style name="Theme.Notes" parent="Theme.MaterialComponents.Light">
     <item name="materialButtonStyle">@style/Widget.Notes.Button</item>
     <item name="android:colorPrimary">@color/MainColor</item>
     <item name="android:colorSecondary">@color/ActsentColor</item>
@@ -15,6 +15,9 @@
   	<item name="android:windowTitleBackgroundStyle">@style/TitleColor</item>
     <item name="android:windowBackground">@color/ListColor</item>
     <item name="android:colorBackground">@color/ListColor</item>
+  </style>
+  <style name="WidgetTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+      <item name="android:singleLine">true</item>
   </style> -->
   <!-- New App Theme -->
   <style name="NotesTheme" parent="Theme.AppCompat.Light.DarkActionBar">
