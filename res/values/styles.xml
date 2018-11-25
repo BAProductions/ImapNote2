@@ -6,7 +6,7 @@
   
   <color name="ListColor">#e8d731</color>
   
- <style name="NotesTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+ <style name="NotesTheme.AppCompat" parent="@style/Theme.AppCompat.Light.DarkActionBar">
       <item name="android:windowTitleSize">60dip</item>
       <item name="android:windowTitleBackgroundStyle">@style/TitleColor</item>
     <item name="android:windowBackground">@color/ListColor</item>
