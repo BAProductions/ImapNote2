@@ -23,6 +23,10 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files) \
 
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dir))
 
+LOCAL_USE_AAPT2 := true
+
+LOCAL_AAPT_FLAGS := --auto-add-overlay
+
 LOCAL_STATIC_JAVA_LIBRARIES += android-support-v4
 LOCAL_STATIC_JAVA_LIBRARIES += android-support-v7-appcompat
 LOCAL_STATIC_JAVA_LIBRARIES += android-support-v7-gridlayout
