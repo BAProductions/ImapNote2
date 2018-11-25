@@ -1,4 +1,4 @@
-package com.Pau.ImapNotes2;
+package com.Light.Notes;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -12,15 +12,15 @@ import java.util.ListIterator;
 
 import org.apache.commons.io.FileUtils;
 
-import com.Pau.ImapNotes2.R;
-import com.Pau.ImapNotes2.Data.NotesDb;
-import com.Pau.ImapNotes2.Miscs.Imaper;
-import com.Pau.ImapNotes2.Miscs.OneNote;
-import com.Pau.ImapNotes2.Data.ImapNotes2Account;
-import com.Pau.ImapNotes2.Miscs.UpdateThread;
-import com.Pau.ImapNotes2.Miscs.SyncThread;
-import com.Pau.ImapNotes2.Sync.SyncService;
-import com.Pau.ImapNotes2.Sync.SyncUtils;
+import com.Light.Notes.R;
+import com.Light.Notes.Data.NotesDb;
+import com.Light.Notes.Miscs.Imaper;
+import com.Light.Notes.Miscs.OneNote;
+import com.Light.Notes.Data.ImapNotes2Account;
+import com.Light.Notes.Miscs.UpdateThread;
+import com.Light.Notes.Miscs.SyncThread;
+import com.Light.Notes.Sync.SyncService;
+import com.Light.Notes.Sync.SyncUtils;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -80,7 +80,7 @@ public class Listactivity extends Activity  implements OnItemSelectedListener,Fi
     private static String OldStatus;
     private Button editAccountButton=null;
     private ListView listview;
-    public static final String AUTHORITY = "com.Pau.ImapNotes2.provider";
+    public static final String AUTHORITY = "com.Light.Notes.provider";
     private static final String TAG = "IN_Listactivity";
     
 
@@ -89,7 +89,7 @@ public class Listactivity extends Activity  implements OnItemSelectedListener,Fi
         public void onClick(View v) {
             // Clic on editAccount Button
             Intent res = new Intent();
-            String mPackage = "com.Pau.ImapNotes2";
+            String mPackage = "com.Light.Notes";
             String mClass = ".AccontConfigurationActivity";
             res.setComponent(new ComponentName(mPackage,mPackage+mClass));
             res.putExtra("action", "EDIT_ACCOUNT");
@@ -264,7 +264,7 @@ public class Listactivity extends Activity  implements OnItemSelectedListener,Fi
     switch (item.getItemId()){
         case R.id.login:
             Intent res = new Intent();
-            String mPackage = "com.Pau.ImapNotes2";
+            String mPackage = "com.Light.Notes";
             String mClass = ".AccontConfigurationActivity";
             res.setComponent(new ComponentName(mPackage,mPackage+mClass));
             res.putExtra("action", "CREATE_ACCOUNT");
@@ -403,7 +403,7 @@ public class Listactivity extends Activity  implements OnItemSelectedListener,Fi
             //invoked when the AccountManager starts up and whenever the account set changes
             this.newAccounts = new ArrayList<Account>();
             for (final Account account : accounts) {
-                if (account.type.equals("com.Pau.ImapNotes2")) {
+                if (account.type.equals("com.Light.Notes")) {
                     this.newAccounts.add(account);
                 }
             }
@@ -456,7 +456,7 @@ public class Listactivity extends Activity  implements OnItemSelectedListener,Fi
                     e.printStackTrace();
                 }
                 Intent res = new Intent();
-                String mPackage = "com.Pau.ImapNotes2";
+                String mPackage = "com.Light.Notes";
                 String mClass = ".AccontConfigurationActivity";
                 res.setComponent(new ComponentName(mPackage,mPackage+mClass));
                 startActivity(res);
