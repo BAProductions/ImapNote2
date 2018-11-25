@@ -16,10 +16,10 @@
     
     <application
         android:name=".Notes"
-        android:icon="@mipmap/ic_launcher_mail"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:requiredAccountType="com.android.exchange,com.android.email.imap,com.android.email.pop3,com.android.email.legacy.imap"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:theme="@style/ImapNotesTheme"
         android:hardwareAccelerated="true"
         android:allowBackup="false"
         android:supportsRtl="true"

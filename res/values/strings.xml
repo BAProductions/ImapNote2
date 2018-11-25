@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Notes</string>
+    <string name="menu_save_button_title">Save</string>
+    <string name="menu_delete_button_title">Delete</string>
+    <string name="menu_account_button_title">Account</string>
+    <string name="menu_new_button_title">New</string>
+    <string name="menu_refresh_button_title">Refresh</string>
+    <string name="menu_search_button_title">Search</string>
+    <string name="menu_about_button_title">About</string>
+    <string name="menu_color_button_title">Color</string>
+    <string name="menu_blue_button_title">Blue</string>
+    <string name="menu_white_button_title">White</string>
+    <string name="menu_yellow_button_title">Yellow</string>
+    <string name="menu_pink_button_title">Pink</string>
+    <string name="menu_green_button_title">Green</string>
 </resources>

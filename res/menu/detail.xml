@@ -3,7 +3,7 @@
     <item
         android:id="@+id/save"
         android:icon="@drawable/ic_action_save"
-        android:title="Save"
+        android:title="@string/menu_save_button_title"
         android:showAsAction="ifRoom">
         
     </item>
@@ -11,7 +11,7 @@
     <item
         android:id="@+id/delete"
         android:icon="@drawable/ic_action_delete"
-        android:title="Delete"
+        android:title="@string/menu_delete_button_title"
         android:showAsAction="ifRoom">
         
     </item>
@@ -19,15 +19,15 @@
 	<item
         android:id="@+id/color"
         android:icon="@drawable/ic_action_color"
-        android:title="Color"
+        android:title="@string/menu_color_button_title"
         android:showAsAction="ifRoom" >
         <menu >
         	<group android:id="@+id/color_group" android:checkableBehavior="single">
-        		<item android:id="@+id/blue" android:title="Blue" />
-	            <item android:id="@+id/white" android:title="White" />
-       		    <item android:id="@+id/yellow" android:title="Yellow" />
-        		<item android:id="@+id/pink" android:title="Pink" />
-        		<item android:id="@+id/green" android:title="Green" />
+        		<item android:id="@+id/blue" android:title="@string/menu_blue_button_title" />
+	            <item android:id="@+id/white" android:title="@string/menu_white_button_title" />
+       		    <item android:id="@+id/yellow" android:title="@string/menu_yellow_button_title" />
+        		<item android:id="@+id/pink" android:title="@string/menu_pink_button_title" />
+        		<item android:id="@+id/green" android:title="@string/menu_green_button_title" />
       </group>   
         </menu>        
     </item>
