@@ -55,17 +55,17 @@ LOCAL_STATIC_JAVA_LIBRARIES += mail
 
 LOCAL_SDK_VERSION := current
 
-LOCAL_PACKAGE_NAME := Notess
+LOCAL_PACKAGE_NAME := Notes
 
 include $(BUILD_PACKAGE)
 ##################################################
 include $(CLEAR_VARS)
 
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += activation:libs/activation.jar
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += additionnal:libs/additionnal.jar
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += commons:libs/commons-io-2.4.jar
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += javamaildir:libs/javamaildir-0.6.jar
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += mail:libs/mail.jar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += activation:libs/activation.jar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += additionnal:libs/additionnal.jar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += commons:libs/commons-io-2.4.jar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += javamaildir:libs/javamaildir-0.6.jar
+#LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += mail:libs/mail.jar
 #LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \   
     #additionnal:libs/additionnal.jar \
     #commons:libs/commons-io-2.4.jar \
