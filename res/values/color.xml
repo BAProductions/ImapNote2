@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="ListColor">#e8d731</color>
-    <color name="ListColor">#e8d731</color>
+    <color name="BackgroundColor">#e8d731</color>
     <color name="TextColor">#8e5d25</color>
     <color name="TitleColor">#8e5d25</color>
 </resources>
